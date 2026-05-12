@@ -95,6 +95,77 @@ footer {
     padding: 30px;
     border-top: 1px solid #ddd;
 }
+
+/*tragos*/
+
+/* TRAGOS */
+
+.tragos-section {
+    min-height: 100vh;
+    background: url("./img/descarga.jpg") center/cover no-repeat;    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.tragos-box {
+    width: 700px;
+    background: rgba(15, 8, 5, 0.92);
+    border: 2px solid #b8832f;
+    border-radius: 30px;
+    padding: 50px;
+    color: #f5e7cf;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.tragos-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.tragos-titulo h1 {
+    font-size: 70px;
+    color: #d9a24c;
+    text-align: center;
+}
+
+.tragos-titulo p {
+    text-align: center;
+    font-size: 28px;
+    color: #d9a24c;
+}
+
+.tragos-linea {
+    width: 90px;
+    height: 2px;
+    background: #b8832f;
+}
+
+.tragos-item {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 25px 0;
+    border-bottom: 1px solid #8b5c18;
+}
+
+.tragos-item h2 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.tragos-icono {
+    font-size: 42px;
+}
+
+.tragos-sin-borde {
+    border-bottom: none;
+}
+
+
 @media (max-width: 768px) {
     .overlay {
         left: 40px;
@@ -107,6 +178,18 @@ footer {
 
     .card {
         width: 45%;
+    }
+    .tragos-box {
+        width: 90%;
+        padding: 35px;
+    }
+
+    .tragos-titulo h1 {
+        font-size: 50px;
+    }
+
+    .tragos-item h2 {
+        font-size: 35px;
     }
 }
 
@@ -155,5 +238,38 @@ footer {
         flex-direction: column;
         text-align: center;
         gap: 20px;
+    }
+
+    .tragos-box {
+        padding: 25px;
+    }
+
+    .tragos-titulo {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .tragos-linea {
+        width: 50px;
+    }
+
+    .tragos-titulo h1 {
+        font-size: 40px;
+    }
+
+    .tragos-titulo p {
+        font-size: 22px;
+    }
+
+    .tragos-item {
+        gap: 15px;
+    }
+
+    .tragos-item h2 {
+        font-size: 28px;
+    }
+
+    .tragos-icono {
+        font-size: 30px;
     }
 }
